@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f7f7; /* Fondo gris claro */
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: #fff; /* Fondo blanco */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333; /* Texto gris oscuro */
+    position: relative;
+    overflow: hidden;
+    display: inline-block; /* Para centrar en el contenedor */
+}
+
+.card__image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.card > * {
+    margin: 0;
+}
+
+.card__title {
+    font-size: 23px;
+    font-weight: 900;
+    color: #2e2e2e; /* Texto gris oscuro */
+}
+
+.card__content {
+    font-size: 13px;
+    line-height: 18px;
+    color: #555; /* Texto gris medio */
+}
+
+.card__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.card__form input {
+    outline: 0;
+    background: #f0f0f0; /* Fondo gris claro */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px inset;
+    padding: 12px;
+    border-radius: 14px;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.card__form button {
+    border: 0;
+    background: #4caf50; /* Fondo verde */
+    color: #fff;
+    padding: 14px;
+    border-radius: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card__form button:hover {
+    background: #45a049; /* Fondo verde más oscuro al pasar el ratón */
+}

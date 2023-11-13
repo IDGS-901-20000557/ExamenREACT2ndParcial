@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+
+body {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle 602px at 2.1% 5.1%, rgba(233, 0, 120, 1) 0%, rgba(0, 0, 0, 1) 90.1%);
+}
+
+.carda {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.carda img {
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 5px 5px 0 0;
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.imageation {
+    display: flex;
+    justify-content: center;
+}
+.carda .content {
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+}
+
+.carda h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.carda p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.controlls {
+    margin: 10px 0;
+}
+
+.controlls a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.controlls .fa {
+    color: #ffffff;
+    height: 60px;
+}
